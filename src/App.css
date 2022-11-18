@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+.authpage_wrapper {
+  height: 100vh;
+}
+
+.authpage_wrapper .container {
+  height: 100%;
+}
+
+.authpage_wrapper .container .row {
+  align-items: center;
+  height: 100%;
+}
+
+.auth_img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.auth_img img {
+  width: 20em;
+  margin: 0 auto;
+  display: block;
+}
+
+.socialmedia_links ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.socialmedia_links ul li a {
+  display: block;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  border-radius: 100%;
+  text-align: center;
+  color: #3d3d3d;
+  border: 1px solid #3d3d3d;
+  margin-right: 1em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-control {
+  width: 100%;
+  height: 50px;
+  border-radius: 1px !important;
+  border: 1px solid #3d3d3d !important;
+  background: #ffffff !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.signin {
+  background: #3d3d3d;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 1px;
+  color: #ffffff;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.sign_check {
+  position: relative;
+  display: table;
+  line-height: 2em;
+}
+
+.sign_check input[type="checkbox"] {
+  margin-right: 3em;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.sign_check input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2em;
+  height: 2em;
+  border: 1px solid #3d3d3d;
+  background: #ffffff;
+}
+
+.sign_check input[type="checkbox"]::after {
+  content: "\f00c";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0.3em;
+  color: #3d3d3d;
+  font-size: 1.2em;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: none;
+}
+
+.sign_check input[type="checkbox"]:checked::after {
+  display: block;
+}
+
+.errors_active {
+  color: red;
+}
+
+.success_active {
+  color: green;
+}
+
+.page_content {
+  margin: 2em 0;
+}
+
+.each_flag_box {
+  border: 1px solid #c0bbbb;
+  padding: 1.2em;
+  margin-bottom: 1.5em;
+  min-height: 8em;
+}
+
+.flag_img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.flag_img img {
+  width: 100%;
+}
+
+.flag_details h3 {
+  display: block;
+  clear: both;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 1em;
+  color: #3d3d3d;
+}
+
+.flag_details span {
+  display: block;
+  clear: both;
+  font-size: 0.8em;
+  color: #cccccc;
+}
+
+.title_grp h1 {
+  display: block;
+  color: #3d3d3d;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.title_grp p {
+  display: block;
+  color: #3d3d3d;
+  font-size: 1em;
+}
+
+.title_grp p a {
+  color: blue !important;
+}
+
+.socialmedia_links {
+  margin: 1em 0;
+}
+
+.socialmedia_links h3 {
+  background: #ffffff;
+  text-align: center;
+  display: block;
+  font-size: 0.85em;
+  color: #3d3d3d;
+}
+
+@media only screen and (max-width: 769px) {
+  .authpage_wrapper > .container > .row {
+    flex-direction: column-reverse;
+    height: auto !important;
+  }
+  .auth_img img {
+    width: 15em;
+  }
+  .each_flag_box {
+    min-height: inherit;
+  }
+}
